@@ -1,4 +1,4 @@
-#strong number  means factors of individal number adding is equal to the given number
+#strong number is a number whose sum of all digits factorial is equal to the number 'n' 
 n=int(input("enter ur number:"))
 sum=0
 temp=n
@@ -11,7 +11,7 @@ while n:
     
     sum=sum+fc#0+120=120+24+1=145
 if(sum==temp):#145=145
-    print("strong numb")
+    print("strong number")
 else:
-    print("not strong numb")
+    print("not strong number")
       
